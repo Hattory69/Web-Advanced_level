@@ -6,7 +6,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <title>Blanchard</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <style type="css">
+  <style type="text/css">
     table {
       border-spacing: 0;
       mso-cellspacing: 0;
@@ -129,21 +129,17 @@
     }
 
     .more__btn {
+      display: block;
       width: 240px !important;
-      margin-bottom: 32px;
       padding-top: 10px;
       padding-bottom: 10px;
-      text-decoration: none;
       font-style: normal;
       background: #9D5CD0;
       border-radius: 48px;
-    }
-
-    .more__link {
-      text-decoration: none;
       font-weight: 700;
       font-size: 14px;
       color: #FFFFFF !important;
+      text-decoration: none;
     }
 
     .copyright {
@@ -154,12 +150,17 @@
       color: #757575;
     }
 
-    .unsubscribe {
+    .unsubscribe,
+    .unsubscribe__link {
       margin: 0;
       font-weight: 400;
       font-size: 10px;
       line-height: 24px;
       color: #757575;
+    }
+
+    .unsubscribe__link {
+      color: #9D5CD0;
     }
 
     @media (max-width: 620px) {
@@ -407,10 +408,10 @@
           </tr>
           <tr>
             <td>
-              <table cellpadding="0" cellspacing="0" class="table-600 container" width="" align="center">
+              <table cellpadding="0" cellspacing="0" class="table-600 container" width="600" align="center">
                 <tr>
-                  <td class="more__btn" align="center">
-                    <a href="#" class="more__link" style="font-family: Arial, Verdana, Geneva, Tahoma, sans-serif;">
+                  <td align="center">
+                    <a href="https://www.instagram.com/" target="_blank" class="more__btn" style="font-family: Arial, Verdana, Geneva, Tahoma, sans-serif;">
                       Узнать все подробности
                     </a>
                   </td>
@@ -430,17 +431,17 @@
               <table cellpadding="0" cellspacing="0" width="143" bgcolor="#000000" align="center">
                 <tr class="social">
                   <td align="left">
-                    <a href="#">
+                    <a href="https://www.instagram.com/">
                       <img width="35" height="35" src="https://7enov.ru/advanced-img/vk.png" alt="" />
                     </a>
                   </td>
                   <td align="center">
-                    <a href="#">
+                    <a href="https://www.instagram.com/">
                       <img width="35" height="35" src="https://7enov.ru/advanced-img/instagram.png" alt="" />
                     </a>
                   </td>
                   <td align="right">
-                    <a href="#">
+                    <a href="https://www.instagram.com/">
                       <img width="35" height="35" src="https://7enov.ru/advanced-img/fb.png" alt="" />
                     </a>
                   </td>
@@ -470,8 +471,8 @@
           <tr>
             <td align="center">
               <p class="unsubscribe" style="font-family: Arial, Verdana, Geneva, Tahoma, sans-serif;">
-                Вы можете так же
-                <a href="">отписаться от рассылки</a>
+                Вы можете так же <a class="unsubscribe__link"
+                  style="font-family: Arial, Verdana, Geneva, Tahoma, sans-serif;" href="https://www.instagram.com/">отписаться от рассылки</a>
               </p>
             </td>
           </tr>
