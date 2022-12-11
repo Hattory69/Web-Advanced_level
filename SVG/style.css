@@ -128,5 +128,8 @@ position: relative;
   z-index: 1;
 }
 
+#facebook path[Style] {
+    fill: #FF7A00;
+}
 
 

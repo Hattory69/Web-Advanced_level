@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="header__wrapper flex">
+            <div class="header__left flex">
+                <button id="burger" class="btn header__burger">
+                    <span></span>
+                </button>
+                <img  alt="" src="/img/header__logo.svg" class="header__logo">
+                <button class="heade__entrance btn">Вход</button>
+            </div>
+            <div class="header__right">
+                <button class="header__serv btn"> Услуги
+                    <span class="header__serv-arrow"></span>
+                </button>
+            </div>
+        </div>
+        <div class="header__burger-active">
+        </div>
+    </div>
+
+    <main class="main">
+        <div class="main-content flex">
+            <div class="main-contetn__left flex">
+                <h1 class="main-content__title gsap__form-bottom">
+                    Создадим имидж вашему бренду
+                </h1>
+                <p class="main-content__descr gsap__slow-fade">
+                    Все этапы создания контента. От фотосессии до пре-пресса.
+                </p>
+                <button class="main-content__btn btn gsap__form-bottom">
+                    Ознокомиться
+                </button>
+            </div>
+            <div class="main-content__right flex">
+                <p class="main-content__author gsap__slow-fade">Автор фото: Сергей Журавлёв.
+                    <a href="#" class="main-content__portfolio">Портфолио автора</a>
+                </p>
+                <div class="main-right__panel flex">
+                    <div class="main-img-wrapper flex">
+                        <img alt="" src="/img/main-pic-1.jpg" class="gsap__photo gsap__slow-fade gsap__main-photo main-content-pic-1">
+                        <img alt="" src="/img/main-pic-2.jpg" class="gsap__photo gsap__slow-fade main-content-pic-2">
+                        <img alt="" src="/img/main-pic-3.jpg" class="gsap__photo gsap__slow-fade main-content-pic-3">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="burger">
+            <div class="burger__wrapper container flex">
+                <div class="burger__left flex">
+                    <div class="burger__nav gsap__form-bottom">
+                        <a href="" class="burger__nav-link">
+                            О нас
+                        </a>
+                        <a href="" class="burger__nav-link">
+                            Портфолио
+                        </a>
+                        <a href="" class="burger__nav-link">
+                            Создание стратегии
+                        </a>
+                        <a href="" class="burger__nav-link">
+                            Фотосъёмка
+                        </a>
+                        <a href="" class="burger__nav-link">
+                            Ретушь
+                        </a>
+                        <a href="" class="burger__nav-link">
+                            Аренда студии
+                        </a>
+                        <a href="" class="burger__nav-link">
+                            Контакты
+                        </a>
+                    </div>
+                    <span class="burger__social gsap__form-bottom"></span>
+                </div>
+                <div class="burger__right gsap__form-bottom flex">
+                    <div class="burger__right-first-col">
+                        <h2 class="burger__cases">Кейсы</h2>
+                        <ul class="burger__cases-list flex">
+                            <li class="burger__cases-item">Уста к устам</li>
+                            <li class="burger__cases-item">Zara </li>
+                            <li class="burger__cases-item">New Balance</li>
+                            <li class="burger__cases-item">Levi’s</li>
+                            <li class="burger__cases-item">Rains </li>
+                            <li class="burger__cases-item">Abercrombie & Fitch</li>
+                            <li class="burger__cases-item">Massimo Dutti</li>
+                        </ul>
+                    </div>
+                    <div class="burger__right-second-col">
+                        <h2 class="burger__partners">
+                            Партнёрам</h2>
+                        <ul class="burger__partners-list flex">
+                            <li class="burger__partners-link">Условия партнёрства</li>
+                            <li class="burger__partners-link">Статистика</li>
+                            <li class="burger__partners-link">О нас</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
